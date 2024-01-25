@@ -1,0 +1,21 @@
+<!-- <div class="container">
+    <h2>Available Products</h2>
+    <div *ngFor="let product of products">
+      <p>{{ product.name }} - ${{ product.price }}</p>
+      <button (click)="addToCart(product)">Add to Cart</button>
+    </div>
+  </div> -->
+  <!-- <button routerLink="/cart">Go to Cart</button> -->
+  <!-- <button routerLink="/user-form">Go to User Form</button> -->
+
+
+  
+  <div class="movie-container ">
+        <div  class="card-body" *ngFor="let product of products" class="movie-item">
+            <div class="card" >
+              <h5 class="card-title">{{ product.name }} </h5>
+              <p> Rs-{{ product.price }}</p>
+              <button  type="button" class="btn btn-success" (click)="addToCart(product)">Add to Cart</button>
+            </div>
+    </div>
+   </div>

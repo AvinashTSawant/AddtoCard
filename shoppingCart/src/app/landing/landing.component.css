@@ -1,0 +1,26 @@
+.card{
+    margin: 50px;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    padding: 20PX;
+   background-color: aqua;
+}
+
+button{
+    margin-top: 20PX;
+}
+.movie-container {
+    margin: 20px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .movie-item {
+    width: 23%; 
+   
+    margin-bottom: 10px;
+    text-align: left;
+  }
